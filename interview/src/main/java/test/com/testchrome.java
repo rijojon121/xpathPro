@@ -19,6 +19,8 @@ public class testchrome {
 
         driver.findElement(By.xpath("//button[@id='search-icon-legacy']")).click();
 
+        driver.getTitle();
+
         Thread.sleep(3000);
 
         driver.close();
